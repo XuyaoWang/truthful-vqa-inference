@@ -53,6 +53,7 @@ def create_occlusion(
     Returns:
         Image with occlusions (PIL.Image)
     """
+    set_seed(42)
     # Convert PIL Image to numpy array
     image_np = np.array(image)
     

@@ -19,7 +19,7 @@ def cached_requests(
     api_base: str = None,
     cache_dir: str = './cache',
     max_try: int = 3,
-    timeout: int = 600,
+    timeout: int = 1200,
 ) -> str:
     """
     Make API requests with caching to avoid duplicate calls.
